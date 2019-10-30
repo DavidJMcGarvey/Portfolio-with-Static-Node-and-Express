@@ -1,0 +1,29 @@
+{
+  "name": "fsjs-techdegree-project-06",
+  "version": "1.0.0",
+  "description": "David J McGarvey JS/Python Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidJMcGarvey/FSJS-techdegree-project-06.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "portfolio",
+    "javascript",
+    "python"
+  ],
+  "author": "David J McGarvey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-06/issues"
+  },
+  "homepage": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-06#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
