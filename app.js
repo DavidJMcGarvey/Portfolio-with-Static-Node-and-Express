@@ -9,12 +9,12 @@ const cookieParser = require('cookie-parser');
 const app = express();
 
 app.use('/static', express.static('public'));
-
 app.set('view engine', 'pug');
 
-app.get('/', (req, res, next) => {
-  res.render('about');
-});
+const routes = require('./routes');
+app.use(routes);
+
+
 
 // Setup local host
 app.listen(3000, () => {
