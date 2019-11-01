@@ -12,7 +12,7 @@ router.get('/', (req, res, next) => {
     projectObj.title = projects[i].project_name;
     projectList.push(projectObj);
   }
-  console.log(projectList);
+
   const templateData = { projectList };
   res.render('index', templateData);
 });
