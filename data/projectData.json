@@ -4,7 +4,7 @@
       "id": 0,
       "project_name": "Public API Requests",
       "description": "pull data from the web and handle it asynchronously ",
-      "technologies": "Public API, Async fetch request",
+      "technologies": ["Public API", "Async fetch request"],
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-05",
       "image_urls": []
@@ -13,7 +13,7 @@
       "id": 1,
       "project_name": "OOP Game Show App",
       "description": "Object Oriented Programing based Game Show Web App",
-      "technologies": "OOP",
+      "technologies": ["OOP"],
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-04",
       "image_urls": []
@@ -22,7 +22,7 @@
       "id": 2,
       "project_name": "Interavtive Form w/ User Data Validation",
       "description": "Handling of user form data",
-      "technologies": "jquery",
+      "technologies": ["jquery"],
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-03",
       "image_urls": []

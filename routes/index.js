@@ -26,8 +26,11 @@ router.get('/about', (req, res, next) => {
 router.get('/project/:id', (req, res, next) => {
   const { id } = req.params;
   const name = projects[id].project_name;
+  const description = projects[id].description;
+  const technologies = projects[id].technologies;
+  const github = projects[id].github_link;
 
-  const templateData = { id, name };
+  const templateData = { id, name, description, technologies, github };
   res.render('project', templateData);
 });
 
