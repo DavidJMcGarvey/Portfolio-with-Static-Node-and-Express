@@ -7,7 +7,9 @@
       "technologies": ["Public API", "Async fetch request"],
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-05",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-0/screen-shot-01.png",
+                    "/static/img/project-id-0/screen-shot-02.png",
+                    "/static/img/project-id-0/screen-shot-03.png" ]
     },
     {
       "id": 1,
@@ -16,16 +18,20 @@
       "technologies": ["OOP"],
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-04",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-1/screen-shot-01.png",
+                    "/static/img/project-id-1/screen-shot-02.png",
+                    "/static/img/project-id-1/screen-shot-03.png" ]
     },
     {
       "id": 2,
-      "project_name": "Interavtive Form w/ User Data Validation",
+      "project_name": "Interactive Form w/ User Data Validation",
       "description": "Handling of user form data",
       "technologies": ["jquery"],
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-03",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-2/screen-shot-01.png",
+                    "/static/img/project-id-2/screen-shot-02.png",
+                    "/static/img/project-id-2/screen-shot-03.png" ]
     },
     {
       "id": 3,
@@ -34,7 +40,9 @@
       "technologies": "Public API, Async fetch request",
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-02",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-3/screen-shot-01.png",
+                    "/static/img/project-id-3/screen-shot-02.png",
+                    "/static/img/project-id-3/screen-shot-03.png" ]
     },
     {
       "id": 4,
@@ -43,7 +51,9 @@
       "technologies": "JavaScript",
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-01",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-4/screen-shot-01.png",
+                    "/static/img/project-id-4/screen-shot-02.png",
+                    "/static/img/project-id-4/screen-shot-03.png" ]
     },
     {
       "id": 5,
@@ -52,7 +62,9 @@
       "technologies": "Django, Python",
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_06",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-5/screen-shot-01.png",
+                    "/static/img/project-id-5/screen-shot-02.png",
+                    "/static/img/project-id-5/screen-shot-03.png" ]
     },
     {
       "id": 6,
@@ -61,7 +73,9 @@
       "technologies": "Flask, Python",
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_05",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-6/screen-shot-01.png",
+                    "/static/img/project-id-6/screen-shot-02.png",
+                    "/static/img/project-id-6/screen-shot-03.png" ]
     },
     {
       "id": 7,
@@ -70,7 +84,9 @@
       "technologies": "SQL, Python, Databases",
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_04",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-7/screen-shot-01.png",
+                    "/static/img/project-id-7/screen-shot-02.png",
+                    "/static/img/project-id-7/screen-shot-03.png" ]
     },
     {
       "id": 8,
@@ -79,7 +95,9 @@
       "technologies": "Python",
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_03",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-8/screen-shot-01.png",
+                    "/static/img/project-id-8/screen-shot-02.png",
+                    "/static/img/project-id-8/screen-shot-03.png" ]
     },
     {
       "id": 9,
@@ -88,7 +106,9 @@
       "technologies": "Python, JSON",
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_02",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-9/screen-shot-01.png",
+                    "/static/img/project-id-9/screen-shot-02.png",
+                    "/static/img/project-id-9/screen-shot-03.png" ]
     },
     {
       "id": 10,
@@ -97,7 +117,9 @@
       "technologies": "Python",
       "live_link": "www",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_01",
-      "image_urls": []
+      "image_urls": ["/static/img/project-id-10/screen-shot-01.png",
+                    "/static/img/project-id-10/screen-shot-02.png",
+                    "/static/img/project-id-10/screen-shot-03.png" ]
     }
   ]
 }

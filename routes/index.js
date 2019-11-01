@@ -2,21 +2,19 @@ const express = require('express');
 const router = express.Router();
 const { projects } = require('../data/projectData.json');
 
-// router.get('/', (req, res, next) => {
-//   const name = projects[0].project_name;
-//   const templateData = { name };
-//   res.render('about', templateData);
-// });
-
-// router.get('/about', (req, res, next) => {
-//   const name = projects[0].project_name;
-//   const templateData = { name };
-//   res.render('about', templateData);
-// });
 
 router.get('/', (req, res, next) => {
-  res.render('index');
-  // res.redirect('/about/');
+  const projectList = [];
+  
+  for (let i = 0; i < projects.length; i++) {
+    const projectObj = {};
+    projectObj.id = projects[i].id;
+    projectObj.title = projects[i].project_name;
+    projectList.push(projectObj);
+  }
+  console.log(projectList);
+  const templateData = { projectList };
+  res.render('index', templateData);
 });
 
 router.get('/about', (req, res, next) => {
