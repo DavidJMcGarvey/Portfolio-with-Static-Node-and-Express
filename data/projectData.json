@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 0,
-      "project_name": "Public API Requests (JS)",
+      "project_name": "Public API Requests",
       "description": "pull data from the web and handle it asynchronously ",
       "technologies": ["Public API", "Async fetch request"],
       "live_link": "www",

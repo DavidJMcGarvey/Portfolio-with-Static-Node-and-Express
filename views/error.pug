@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  section.desk
+    if !error.status
+      h1= `${error.message}`
+      a.button.large(href='/') Go Home
+      img(src='/static/img/about/jada.jpg')
+    else
+      h1= `${error.message} - Satus: ${error.status}`
+      a.button.large(href='/') Go Home
+      img.desk-items(src='/static/img/about/jada.jpg')
