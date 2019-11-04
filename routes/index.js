@@ -4,16 +4,24 @@ const { projects } = require('../data/projectData.json');
 
 
 router.get('/', (req, res, next) => {
-  const projectList = [];
+  const JavaScriptProjectList = [];
+  const PythonProjectList = [];
   
-  for (let i = 0; i < projects.length; i++) {
+  for (let i = 0; i < 5; i++) {
     const projectObj = {};
     projectObj.id = projects[i].id;
     projectObj.title = projects[i].project_name;
-    projectList.push(projectObj);
+    JavaScriptProjectList.push(projectObj);
   }
 
-  const templateData = { projectList };
+  for (let i = 5; i < 11; i++) {
+    const projectObj = {};
+    projectObj.id = projects[i].id;
+    projectObj.title = projects[i].project_name;
+    PythonProjectList.push(projectObj);
+  }
+
+  const templateData = { JavaScriptProjectList, PythonProjectList };
   res.render('index', templateData);
 });
 
