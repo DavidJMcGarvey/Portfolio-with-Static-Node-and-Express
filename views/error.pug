@@ -6,7 +6,9 @@ block content
       h1= `${error.message}`
       a.button.large(href='/') Go Home
       img(src='/static/img/about/jada.jpg')
+      pre #{error.stack}
     else
-      h1= `${error.message} - Satus: ${error.status}`
+      h1= `${error.message} - Status: ${error.status}`
       a.button.large(href='/') Go Home
       img.desk-items(src='/static/img/about/jada.jpg')
+      pre #{error.stack}

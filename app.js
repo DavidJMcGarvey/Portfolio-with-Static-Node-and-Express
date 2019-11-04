@@ -14,9 +14,6 @@ app.use(routes);
 
 // Error handlers
 app.use((req, res, next) => {
-  // const err = new Error('Something went wrong dawg!');
-  // err.status = 404;
-  // next(err);
   return next(createError(404));
 });
 

@@ -35,8 +35,9 @@ router.get('/project/:id', (req, res, next) => {
   const description = projects[id].description;
   const technologies = projects[id].technologies;
   const github = projects[id].github_link;
+  const live_link = projects[id].live_link;
 
-  const templateData = { id, name, description, technologies, github };
+  const templateData = { id, name, description, technologies, github, live_link };
   res.render('project', templateData);
 });
 
