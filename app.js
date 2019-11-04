@@ -1,11 +1,14 @@
 // ------------------------------------------
 //  Express App Setup
 // ------------------------------------------
+
+// Inital express setup
 const express = require('express');
 var createError = require('http-errors');
 
 const app = express();
 
+// Static and Pug setup
 app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 

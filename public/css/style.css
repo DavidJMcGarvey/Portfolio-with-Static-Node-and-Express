@@ -156,3 +156,11 @@ a:hover{
 .off-canvas  {
   background-color: #20639B;
 }
+
+.off-canvas-content {
+  background-color: #D3D3D3;
+}
+
+p.text-light {
+  color: #000000;
+}
