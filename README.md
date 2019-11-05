@@ -10,6 +10,10 @@ To run:
 2. Once depencies are installed, type **npm start** in your Terminal or CLI to start up the server. 
 3. Go to **localhost:3000** in a web broswer to access the home page of the website. 
 
+Or simply:
+1. Go to https://david-mcgarvey-portfolio.herokuapp.com/
+
+
 **BASIC FEATURES**
 
 Using the Express framework and Pug templating, this web site displays a collection of projects that reflect my skills as a developer. From the home page, users can scroll through my projects. Clicking on a project thumbnail brings user to a page with further detail and links for said project. There is also an **about** page that gives a little background into my own coding journey and gives hopeful employers a snapshot of the employee I could be for them. 
@@ -21,4 +25,4 @@ Using the Express framework and Pug templating, this web site displays a collect
 
 Author: David J McGarvey
 Created: 2019-10-30
-Updated: 2019-11-04
+Updated: 2019-11-05
