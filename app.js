@@ -4,7 +4,8 @@
 
 // Inital express setup
 const express = require('express');
-var createError = require('http-errors');
+const createError = require('http-errors');
+const port = process.env.PORT || 3000;
 
 const app = express();
 
@@ -28,6 +29,6 @@ app.use((err, req, res, next) => {
 });
 
 // Setup local host
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log(`The app is running on localhost:3000, dawg!`);
 });
