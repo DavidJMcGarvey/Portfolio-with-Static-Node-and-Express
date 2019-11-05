@@ -149,11 +149,11 @@ a:hover{
 */
 
 .off-canvas  {
-  background-color: #20639B;
+  background-color: #8B94AE;
 }
 
 .off-canvas-content {
-  background-color: #D3D3D3;
+  background-color: #EEEFF3;
 }
 
 p.text-light {
@@ -161,5 +161,5 @@ p.text-light {
 }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Helvetica', serif;
+  font-family: 'Nunito', sans-serif;
 }
