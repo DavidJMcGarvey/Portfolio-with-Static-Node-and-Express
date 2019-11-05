@@ -4,7 +4,6 @@
 
 // Inital express setup
 const express = require('express');
-const createError = require('http-errors');
 const port = process.env.PORT || 3000;
 
 const app = express();
@@ -18,7 +17,10 @@ app.use(routes);
 
 // Error handlers
 app.use((req, res, next) => {
-  return next(createError(404));
+  const err = new Error('Error --> Could not find requested page, dawg!');
+  err.status = 404;
+  console.error(err.message);
+  return next(err);
 });
 
 app.use((err, req, res, next) => {

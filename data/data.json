@@ -3,7 +3,7 @@
     {
       "id": 0,
       "project_name": "Public API Requests",
-      "description": "pull data from the web and handle it asynchronously ",
+      "description": "Pull data from the web and handle it asynchronously",
       "technologies": ["Public API", "Async fetch request"],
       "live_link": "https://davidjmcgarvey.github.io/FSJS-techdegree-project-05/",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-05",
@@ -58,7 +58,7 @@
     {
       "id": 5,
       "project_name": "Mineral Catalog w/ Django",
-      "description": "Using the Django web framework, a catalog of minerals and their descriptions ",
+      "description": "Using the Django web framework, a catalog of minerals and their descriptions",
       "technologies": ["Django", "Python"],
       "live_link": "",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_06",
@@ -69,7 +69,7 @@
     {
       "id": 6,
       "project_name": "Personal Learning Journal w/ Flask",
-      "description": "Using Flask web framework, an app that lets user create, store, edit learning journal entries.",
+      "description": "Using Flask web framework, an app that lets user create, store, edit learning journal entries",
       "technologies": ["Flask", "Python"],
       "live_link": "",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_05",
@@ -80,7 +80,7 @@
     {
       "id": 7,
       "project_name": "Work Log w/ SQLite Database",
-      "description": "Terminal app that lets user create, edit, and store work log entries in a database.",
+      "description": "Terminal app that lets user create, edit, and store work log entries in a database",
       "technologies": ["SQL", "Python", "Databases"],
       "live_link": "",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_04",
@@ -102,7 +102,7 @@
     {
       "id": 9,
       "project_name": "League Builder",
-      "description": "On execution, this program takes JSON and parses it into data strucutures used to send a letter to the parents of the players.",
+      "description": "On execution, this program takes JSON and parses it into data strucutures used to send a letter to the parents of the players",
       "technologies": ["Python", "JSON"],
       "live_link": "",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_02",
@@ -113,7 +113,7 @@
     {
       "id": 10,
       "project_name": "Number Guessing Game",
-      "description": "Guess and number between 1 and 10 in this little Terminal game.",
+      "description": "Guess and number between 1 and 10 in this little Terminal game",
       "technologies": ["Python"],
       "live_link": "",
       "github_link": "https://github.com/DavidJMcGarvey/python_techdegree_project_01",

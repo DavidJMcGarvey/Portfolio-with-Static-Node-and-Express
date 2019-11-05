@@ -26,7 +26,6 @@
   "homepage": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-06#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "http-errors": "^1.7.3",
     "pug": "^2.0.4"
   },
   "devDependencies": {
