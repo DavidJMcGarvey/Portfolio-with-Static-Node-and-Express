@@ -167,3 +167,7 @@ h1,h2,h3,h4,h5,p{
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   img.thumbnail.profile  { transform: rotate(90deg)  }
  }
+
+ @media screen and (max-device-width: 480px) {
+  img.thumbnail.profile  { transform: rotate(0deg)  }
+ }
