@@ -164,3 +164,6 @@ h1,h2,h3,h4,h5,p{
   font-family: 'Nunito', sans-serif;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  img.thumbnail.profile  { transform: rotate(90deg)  }
+ }
