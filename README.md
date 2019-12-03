@@ -25,4 +25,4 @@ Using the Express framework and Pug templating, this web site displays a collect
 
 Author: David J McGarvey
 Created: 2019-10-30
-Updated: 2019-11-05
+Updated: 2019-12-02
