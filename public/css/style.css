@@ -149,7 +149,12 @@ a:hover{
 */
 
 .off-canvas  {
-  background-color: #8B94AE;
+  /* background-color: #094c72; */
+  /* background-color: #055a8c; */
+  /* background-color: #026aa7; */
+  background-color: #0079bf;
+  /* background-color: #298fca; */ 
+  /* background-color: #8B94AE; */
 }
 
 .off-canvas-content {
