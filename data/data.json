@@ -27,7 +27,7 @@
       "project_name": "SQL Library Manager App",
       "description": "Book management using SQLite database with Sequelize and Express",
       "technologies": ["SQL", "Sequelize", "Express"],
-      "live_link": "https://to-do.com",
+      "live_link": "https://davey-sql-library-manager.herokuapp.com/",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-08",
       "image_urls": ["/static/img/project-id-2/screen-shot-01.png",
                     "/static/img/project-id-2/screen-shot-02.png",
