@@ -1,7 +1,15 @@
-Full Stack JavaScript Techdegree Project 6
 --------------------------------------------
 ###      Static Node.js and Express      ###
 --------------------------------------------
+
+*Application Description and Goals:* 
+
+*Technologies:*
+
+*Screenshots:*
+![img](https://user-images.githubusercontent.com/42125523/72556904-8059d280-3854-11ea-9af2-eff30904e111.png)
+![img](https://user-images.githubusercontent.com/42125523/72556905-8059d280-3854-11ea-9231-525d0cafd272.png)
+![img](https://user-images.githubusercontent.com/42125523/72556907-8059d280-3854-11ea-936b-59a76771be9d.png)
 
 Welcome to my personal portfolio of projects! Where you come for the collection of projects written in both JavaScript and Python, but you stay for the custom error message displaying a cool dog.
 
