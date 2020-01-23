@@ -11,7 +11,7 @@ router.get('/', (req, res, next) => {
   const JavaScriptProjectList = [];
   const PythonProjectList = [];
   
-  for (let i = 2; i < 10; i++) {
+  for (let i = 1; i < 10; i++) {
     // Pull JavaScript project data for template
     const projectObj = {};
     projectObj.id = projects[i].id;
@@ -45,8 +45,9 @@ router.get('/project/:id', (req, res, next) => {
   const technologies = projects[id].technologies;
   const github = projects[id].github_link;
   const live_link = projects[id].live_link;
+  const image_urls = projects[id].image_urls;
 
-  const templateData = { id, name, description, technologies, github, live_link };
+  const templateData = { id, name, description, technologies, github, live_link, image_urls };
   res.render('project', templateData);
 });
 

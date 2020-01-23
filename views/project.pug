@@ -22,10 +22,7 @@ block content
         if live_link
           a.button.expanded(href=live_link, target='_blank') Live Demo
         a.button.expanded(href=github, target='_blank') GitHub Repo
-    
-    br
-    img.image(src=`/static/img/project-id-${id}/screen-shot-01.png`)
-    br
-    img.image(src=`/static/img/project-id-${id}/screen-shot-02.png`)
-    br
-    img.image(src=`/static/img/project-id-${id}/screen-shot-03.png`)
+
+    for image in image_urls
+      img.image(src=image)
+      br
