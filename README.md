@@ -1,10 +1,10 @@
 --------------------------------------------
-###      Static Node.js and Express      ###
+#      Static Node.js and Express      #
 --------------------------------------------
 
 Welcome to my personal portfolio of projects! Where you come for the collection of projects written in both JavaScript and Python, but you stay for the custom error message displaying a cool dog.
 
-*Application Description and Goals:* 
+## Application Description and Goals:
 
 To run: 
 1. Download dependencies using **npm install** in your Terminal or CLI.
@@ -23,18 +23,18 @@ Using the Express framework and Pug templating, this web site displays a collect
 - Custom Error: A custom error template give users a better experience with a clear way to return to the home page when something goes wrong
 - Custom Styling: At the bottom of **styles.css**, custom CSS styles were added to the pre-existing project CSS. 
 
-*Technologies:*
+## Technologies:
 
 1. JavaScript
 2. Express
 3. Node
 4. Pug
 
-*Screenshots:*
+## Screenshots:
 ![img](https://user-images.githubusercontent.com/42125523/72556904-8059d280-3854-11ea-9af2-eff30904e111.png)
 ![img](https://user-images.githubusercontent.com/42125523/72556905-8059d280-3854-11ea-9231-525d0cafd272.png)
 ![img](https://user-images.githubusercontent.com/42125523/72556907-8059d280-3854-11ea-936b-59a76771be9d.png)
 
 Author: David J McGarvey  
 Created: 2019-10-30  
-Updated: 2020-01-16  
+Updated: 2020-01-24
