@@ -17,11 +17,7 @@
       "description": "REST API school database administration",
       "technologies": ["JavaScript", "REST API", "Express", "Postman"],
       "live_link": "https://davey-rest-api.herokuapp.com/",
-<<<<<<< HEAD
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-09",
-=======
-      "github_link": "https://github.com/DavidJMcGarvey/REST-API",
->>>>>>> 061767214cf034768a63eb4897b411e21876e66c
       "image_urls": ["/static/img/project-id-1/screen-shot-01.png",
                     "/static/img/project-id-1/screen-shot-02.png",
                     "/static/img/project-id-1/screen-shot-03.png",
