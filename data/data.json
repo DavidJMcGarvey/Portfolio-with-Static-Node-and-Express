@@ -15,12 +15,13 @@
       "id": 1,
       "project_name": "REST API",
       "description": "REST API school database administration",
-      "technologies": ["JavaScript", "REST API", "Express"],
-      "live_link": "",
+      "technologies": ["JavaScript", "REST API", "Express", "Postman"],
+      "live_link": "https://davey-rest-api.herokuapp.com/",
       "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-09",
       "image_urls": ["/static/img/project-id-1/screen-shot-01.png",
                     "/static/img/project-id-1/screen-shot-02.png",
-                    "/static/img/project-id-1/screen-shot-03.png" ]
+                    "/static/img/project-id-1/screen-shot-03.png",
+                    "/static/img/project-id-1/screen-shot-04.png" ]
     },
     {
       "id": 2,
@@ -86,7 +87,8 @@
       "github_link": "https://github.com/DavidJMcGarvey/List-Pagination-and-Filtering",
       "image_urls": ["/static/img/project-id-7/screen-shot-01.png",
                     "/static/img/project-id-7/screen-shot-02.png",
-                    "/static/img/project-id-7/screen-shot-03.png" ]
+                    "/static/img/project-id-7/screen-shot-03.png",
+                    "/static/img/project-id-7/screen-shot-04.png" ]
     },
     {
       "id": 8,
