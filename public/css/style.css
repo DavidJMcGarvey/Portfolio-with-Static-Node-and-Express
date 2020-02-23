@@ -169,6 +169,17 @@ h1,h2,h3,h4,h5,p{
   font-family: 'Nunito', sans-serif;
 }
 
+a.descrip {
+  font-size: 14px;
+  color: #000000;
+  text-transform: lowercase; 
+}
+
+p.descrip {
+  font-size: 18px;
+  color: #2b2d2f;
+}
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   img.thumbnail.profile  { transform: rotate(90deg)  }
  }

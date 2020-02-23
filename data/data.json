@@ -3,13 +3,16 @@
     {
       "id": 0,
       "project_name": "Full Stack App w/ React and a REST API",
-      "description": "React frontend to pair with school database REST API ",
+      "description": "React front-end to pair with school database REST API ",
       "technologies": ["JavaScript", "REST API", "React"],
       "live_link": "",
-      "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-10",
+      "github_link": "https://github.com/DavidJMcGarvey/Full-Stack-App",
       "image_urls": ["/static/img/project-id-0/screen-shot-01.png",
                     "/static/img/project-id-0/screen-shot-02.png",
-                    "/static/img/project-id-0/screen-shot-03.png" ]
+                    "/static/img/project-id-0/screen-shot-03.png",
+                    "/static/img/project-id-0/screen-shot-04.png",
+                    "/static/img/project-id-0/screen-shot-05.png",
+                    "/static/img/project-id-0/screen-shot-06.png" ]
     },
     {
       "id": 1,
@@ -17,7 +20,7 @@
       "description": "REST API school database administration",
       "technologies": ["JavaScript", "REST API", "Express", "Postman"],
       "live_link": "https://davey-rest-api.herokuapp.com/",
-      "github_link": "https://github.com/DavidJMcGarvey/FSJS-techdegree-project-09",
+      "github_link": "https://github.com/DavidJMcGarvey/REST-API",
       "image_urls": ["/static/img/project-id-1/screen-shot-01.png",
                     "/static/img/project-id-1/screen-shot-02.png",
                     "/static/img/project-id-1/screen-shot-03.png",

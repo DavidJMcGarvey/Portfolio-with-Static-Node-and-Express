@@ -11,7 +11,7 @@ router.get('/', (req, res, next) => {
   const JavaScriptProjectList = [];
   const PythonProjectList = [];
   
-  for (let i = 1; i < 10; i++) {
+  for (let i = 0; i < 10; i++) {
     // Pull JavaScript project data for template
     const projectObj = {};
     projectObj.id = projects[i].id;
