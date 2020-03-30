@@ -180,6 +180,17 @@
       "image_urls": ["/static/img/project-id-15/screen-shot-01.png",
                     "/static/img/project-id-15/screen-shot-02.png",
                     "/static/img/project-id-15/screen-shot-03.png" ]
+    },
+    {
+      "id": 16,
+      "project_name": "PHP Random Quote Generator",
+      "description": "PHP multidimensional array and a custom print function display random quotes with auto refresh timer and random background color changes on reload.",
+      "technologies": ["PHP", "Arrays", "PHP Functions"],
+      "live_link": "https://davey-php-quote-generator.herokuapp.com/",
+      "github_link": "https://github.com/DavidJMcGarvey/PHP-Random-Quote-Generator",
+      "image_urls": ["/static/img/project-id-16/screen-shot-01.png",
+                    "/static/img/project-id-16/screen-shot-02.png",
+                    "/static/img/project-id-16/screen-shot-03.png" ]
     }
   ]
 }

@@ -10,6 +10,7 @@ const { projects } = require('../data/data.json');
 router.get('/', (req, res, next) => {
   const JavaScriptProjectList = [];
   const PythonProjectList = [];
+  const PHPProjectList = [];
   
   for (let i = 0; i < 10; i++) {
     // Pull JavaScript project data for template
@@ -27,8 +28,16 @@ router.get('/', (req, res, next) => {
     PythonProjectList.push(projectObj);
   }
 
+  for (let i = 16; i < 17; i++) {
+    // Pull PHP project data for template
+    const projectObj = {};
+    projectObj.id = projects[i].id;
+    projectObj.title = projects[i].project_name;
+    PHPProjectList.push(projectObj);
+  }
+
   // Pass project data to template
-  const templateData = { JavaScriptProjectList, PythonProjectList };
+  const templateData = { JavaScriptProjectList, PythonProjectList, PHPProjectList };
   res.render('index', templateData);
 });
 
