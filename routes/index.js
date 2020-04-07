@@ -11,6 +11,7 @@ router.get('/', (req, res, next) => {
   const JavaScriptProjectList = [];
   const PythonProjectList = [];
   const PHPProjectList = [];
+  const FeaturedList = [];
   
   for (let i = 0; i < 10; i++) {
     // Pull JavaScript project data for template
@@ -36,8 +37,24 @@ router.get('/', (req, res, next) => {
     PHPProjectList.push(projectObj);
   }
 
+  // Select projects for Featured List
+  const featuredProject_1 = {};
+  const featuredProject_2 = {};
+  const featuredProject_3 = {};
+
+  featuredProject_1.id = projects[0].id;
+  featuredProject_1.title = projects[0].project_name;
+  
+  featuredProject_2.id = projects[4].id;
+  featuredProject_2.title = projects[4].project_name;
+
+  featuredProject_3.id = projects[6].id;
+  featuredProject_3.title = projects[6].project_name;
+
+  FeaturedList.push(featuredProject_1, featuredProject_2, featuredProject_3);
+
   // Pass project data to template
-  const templateData = { JavaScriptProjectList, PythonProjectList, PHPProjectList };
+  const templateData = { JavaScriptProjectList, PythonProjectList, PHPProjectList, FeaturedList };
   res.render('index', templateData);
 });
 
