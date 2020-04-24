@@ -180,10 +180,14 @@ p.descrip {
   color: #2b2d2f;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* @media screen and (-webkit-min-device-pixel-ratio:0) {
   img.thumbnail.profile  { transform: rotate(90deg)  }
  }
 
  @media screen and (max-device-width: 480px) {
   img.thumbnail.profile  { transform: rotate(0deg)  }
  }
+
+ img.thumbnail.profile {
+   transform: rotate(90deg);
+ } */
