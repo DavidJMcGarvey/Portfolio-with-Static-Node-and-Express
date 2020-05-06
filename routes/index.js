@@ -12,7 +12,7 @@ router.get('/', (req, res, next) => {
   const PythonProjectList = [];
   const PHPProjectList = [];
   const FeaturedList = [];
-  
+
   for (let i = 0; i < 10; i++) {
     // Pull JavaScript project data for template
     const projectObj = {};
@@ -34,7 +34,7 @@ router.get('/', (req, res, next) => {
     const projectObj = {};
     projectObj.id = projects[i].id;
     projectObj.title = projects[i].project_name;
-    PHPProjectList.push(projectObj);
+    JavaScriptProjectList.push(projectObj);
   }
 
   // Select projects for Featured List
@@ -44,7 +44,7 @@ router.get('/', (req, res, next) => {
 
   featuredProject_1.id = projects[0].id;
   featuredProject_1.title = projects[0].project_name;
-  
+
   featuredProject_2.id = projects[4].id;
   featuredProject_2.title = projects[4].project_name;
 

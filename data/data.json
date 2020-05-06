@@ -106,7 +106,7 @@
     },
     {
       "id": 9,
-      "project_name": "Random Quote Generator",
+      "project_name": "JavaScript Random Quote Generator",
       "description": "JavaScript arrays and the random lib produce randomly generated quotes",
       "technologies": ["JavaScript", "Arrays", "Math", "Random"],
       "live_link": "https://davidjmcgarvey.github.io/Random-Quote-Generator/",
@@ -183,7 +183,7 @@
     },
     {
       "id": 16,
-      "project_name": "PHP Random Quote Generator",
+      "project_name": "(BONUS) PHP Random Quote Generator",
       "description": "PHP multidimensional array and a custom print function display random quotes with auto refresh timer and random background color changes on reload.",
       "technologies": ["PHP", "Arrays", "PHP Functions"],
       "live_link": "https://davey-php-quote-generator.herokuapp.com/",
